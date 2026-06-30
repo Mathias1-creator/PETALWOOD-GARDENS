@@ -358,6 +358,8 @@ ul { margin: 0; padding: 0; }
 .brand:hover { color: var(--green); }
 .brand-mark { width: 30px; height: 30px; flex: none; color: var(--gold); }
 .brand-name { line-height: 1; }
+.brand-logo { height: 46px; width: auto; display: block; border-radius: 7px; }
+@media (max-width: 520px) { .brand-logo { height: 38px; } }
 
 .nav-links {
   display: flex; align-items: center; gap: 0.35rem; list-style: none;
