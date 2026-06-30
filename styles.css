@@ -358,8 +358,8 @@ ul { margin: 0; padding: 0; }
 .brand:hover { color: var(--cream); }
 .brand-mark { width: 30px; height: 30px; flex: none; color: var(--gold); }
 .brand-name { line-height: 1; }
-.brand-logo { height: 46px; width: auto; display: block; border-radius: 7px; }
-@media (max-width: 520px) { .brand-logo { height: 38px; } }
+.brand-logo { height: 64px; width: auto; display: block; border-radius: 7px; }
+@media (max-width: 520px) { .brand-logo { height: 52px; } }
 
 .nav-links {
   display: flex; align-items: center; gap: 0.35rem; list-style: none;
@@ -794,7 +794,7 @@ body.nav-open { overflow: hidden; }
 .footer-brand .brand { color: var(--cream); margin-bottom: 1rem; font-size: 1.4rem; }
 .footer-brand .brand-mark { color: var(--gold); }
 .footer-brand-logo { display: inline-flex; align-items: center; }
-.brand-logo-footer { height: 60px; width: auto; display: block; border-radius: 7px; }
+.brand-logo-footer { height: 80px; width: auto; display: block; border-radius: 7px; }
 .footer-brand p { color: var(--cream-dim); max-width: 32ch; }
 .footer-tagline {
   color: var(--gold) !important; letter-spacing: 0.18em; text-transform: uppercase;
