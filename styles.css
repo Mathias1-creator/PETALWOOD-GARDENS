@@ -336,7 +336,11 @@ ul { margin: 0; padding: 0; }
   backdrop-filter: saturate(150%) blur(12px);
   -webkit-backdrop-filter: saturate(150%) blur(12px);
   border-bottom: 1px solid transparent;
-  transition: box-shadow 0.3s var(--ease), border-color 0.3s var(--ease), background 0.3s var(--ease);
+  transition: box-shadow 0.3s var(--ease), border-color 0.3s var(--ease), background 0.3s var(--ease), transform 0.3s var(--ease);
+  transform: translateY(0);
+}
+.site-header.hidden {
+  transform: translateY(-100%);
 }
 .site-header.scrolled {
   box-shadow: 0 1px 0 rgba(245, 242, 235, 0.16), 0 8px 24px rgba(21, 48, 55, 0.35);

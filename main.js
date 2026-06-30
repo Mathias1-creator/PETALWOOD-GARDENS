@@ -2,13 +2,24 @@
 (function () {
   "use strict";
 
-  /* ---- Sticky header shadow on scroll ---- */
+  /* ---- Header hide/show on scroll ---- */
   var header = document.querySelector(".site-header");
   var toTop = document.querySelector(".to-top");
+  var lastScrollY = 0;
 
   function onScroll() {
     var y = window.pageYOffset || document.documentElement.scrollTop;
-    if (header) header.classList.toggle("scrolled", y > 8);
+
+    if (header) {
+      header.classList.toggle("scrolled", y > 8);
+      if (y > lastScrollY && y > 76) {
+        header.classList.add("hidden");
+      } else {
+        header.classList.remove("hidden");
+      }
+      lastScrollY = y;
+    }
+
     if (toTop) toTop.classList.toggle("show", y > 600);
   }
   window.addEventListener("scroll", onScroll, { passive: true });
