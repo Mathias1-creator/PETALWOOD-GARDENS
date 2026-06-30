@@ -796,7 +796,7 @@ body.nav-open { overflow: hidden; }
   font-size: 0.82rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
   margin-bottom: 1.1rem;
 }
-.footer-brand .brand { color: var(--cream); margin-bottom: 1rem; font-size: 1.4rem; }
+.footer-brand .brand { margin-bottom: 1rem; }
 .footer-brand .brand-mark { color: var(--gold); }
 .footer-brand-logo { display: inline-flex; align-items: center; }
 .brand-text-footer { display: flex; flex-direction: column; gap: 0.3rem; line-height: 1; }
