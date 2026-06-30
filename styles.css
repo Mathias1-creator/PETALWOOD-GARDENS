@@ -332,16 +332,16 @@ ul { margin: 0; padding: 0; }
    ========================================================= */
 .site-header {
   position: sticky; top: 0; z-index: 1000;
-  background: rgba(31, 58, 46, 0.92);
+  background: rgba(21, 48, 55, 0.92);
   backdrop-filter: saturate(150%) blur(12px);
   -webkit-backdrop-filter: saturate(150%) blur(12px);
   border-bottom: 1px solid transparent;
   transition: box-shadow 0.3s var(--ease), border-color 0.3s var(--ease), background 0.3s var(--ease);
 }
 .site-header.scrolled {
-  box-shadow: 0 1px 0 rgba(245, 242, 235, 0.16), 0 8px 24px rgba(20, 39, 30, 0.25);
+  box-shadow: 0 1px 0 rgba(245, 242, 235, 0.16), 0 8px 24px rgba(21, 48, 55, 0.35);
   border-bottom-color: rgba(245, 242, 235, 0.16);
-  background: rgba(31, 58, 46, 0.96);
+  background: rgba(21, 48, 55, 0.96);
 }
 
 .nav {
@@ -779,7 +779,7 @@ body.nav-open { overflow: hidden; }
    Footer
    ========================================================= */
 .site-footer {
-  background: var(--green-900); color: var(--cream-dim);
+  background: #153037; color: var(--cream-dim);
   padding-block: clamp(3rem, 6vw, 4.5rem) 0;
 }
 .footer-grid {
