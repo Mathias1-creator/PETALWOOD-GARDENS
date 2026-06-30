@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://petalwoodgardens.com/sitemap.xml
