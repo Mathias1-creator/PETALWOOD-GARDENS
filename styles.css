@@ -877,6 +877,10 @@ body.nav-open { overflow: hidden; }
   display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; justify-content: space-between; align-items: center;
 }
 .footer-bottom .sep { color: var(--gold); }
+.footer-bottom-tagline {
+  color: var(--gold); font-weight: 600; font-size: 0.78rem;
+  letter-spacing: 0.16em; text-transform: uppercase;
+}
 
 /* =========================================================
    Back to top
